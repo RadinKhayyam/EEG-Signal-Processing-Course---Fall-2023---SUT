@@ -64,5 +64,3 @@ This course provides an in-depth understanding of **EEG (Electroencephalography)
 - **Brain Connectivity Graphs:** Constructing connectivity graphs and extracting graph-theoretical features such as nodal degree, clustering coefficient, global efficiency, etc.
 
 ---
-
-This syllabus reflects the graduate-level depth and rigor of the EEG Signal Processing course. The repository includes code and projects corresponding to each section of the syllabus.
