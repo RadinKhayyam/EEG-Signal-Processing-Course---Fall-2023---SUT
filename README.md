@@ -1,6 +1,8 @@
 # 📊 EEG Signal Processing
 
-**🏛️ University:** Sharif University of Technology, Electrical Engineering Department  
+
+**🏛️ University:** Sharif University of Technology  
+**🏢 Department:** Electrical Engineering  
 **👩‍🏫 Instructor:** Prof. Sepideh Hajipour  
 
 ---
@@ -21,8 +23,11 @@ This course provides an in-depth understanding of **EEG (Electroencephalography)
 - The role of EEG in neuroimaging, its advantages, and limitations.
 
 ### 3️⃣ EEG Signals Pre-Processing  
-- Filtering, artifact removal, and preparation of raw EEG data for analysis.  
-- Techniques such as notch filtering, bandpass filtering, and independent component analysis (ICA) for noise reduction.
+- **Artifacts in EEG:** Overview of various artifacts (e.g., EOG, EMG, ECG) and their appearance in time-domain signals.  
+- **Rereferencing Methods:** Common techniques for improving signal quality.  
+- **Filtering:** Notch filter, bandpass filters, and others.  
+- **Trial Rejection:** Methods for identifying and removing poor trials.  
+- **Artifact Removal Using ICA:** Applying ICA to eliminate EEG artifacts by analyzing components across time-domain signals, frequency spectra, and spatial topography.
 
 ### 4️⃣ Blind and Semi-Blind Source Separation Methods  
 - **Mathematical Basis of Blind Methods:** Principal Component Analysis (PCA) and Independent Component Analysis (ICA).  
@@ -37,7 +42,7 @@ This course provides an in-depth understanding of **EEG (Electroencephalography)
 
 ### 6️⃣ Patterns of Brain Signals and Detection Methods  
 - **EEG Bands:** Delta, Theta, Alpha, Beta, and Gamma bands and their significance.  
-- **Event-Related Potentials (ERP):** Detection of P300 components.  
+- **Event-Related Potentials (ERP):** Introduction to the P300 wave and its detection methods.  
 - **Steady-State Visual Evoked Potentials (SSVEP):** Classical detection methods and Canonical Correlation Analysis (CCA)-based approaches.  
 - **Event-Related Synchronization (ERS):** Detection techniques for synchronization patterns.  
 - **Feature Extraction Methods:** Using Common Spatial Patterns (CSP) for pattern recognition in EEG signals.
@@ -47,16 +52,17 @@ This course provides an in-depth understanding of **EEG (Electroencephalography)
 - **BCI Design and Implementation:** Steps in creating a BCI system, from signal acquisition to classification and feedback.
 
 ### 8️⃣ Brain Source Localization  
-- **Forward and Inverse Problems:** Mathematical formulations of forward and inverse problems in EEG.  
-- **Non-Parametric Methods:** Minimum Norm Estimate (MNE), Weighted Minimum Norm Estimate (WMNE), Low-Resolution Electromagnetic Tomography (LORETA), and Standardized LORETA (sLORETA).  
-- **Parametric Methods:** Various parametric techniques for solving the inverse problem.  
+- **Forward and Inverse Problems:** Introduction to forward and inverse problems in brain source localization.  
+- **Non-Parametric Solutions for Inverse Problem:** Minimum Norm Estimate (MNE), Weighted Minimum Norm Estimate (WMNE), Low-Resolution Electromagnetic Tomography (LORETA), and Standardized LORETA (sLORETA).  
+- **Parametric Solutions for Inverse Problem:** Various parametric techniques for solving the inverse problem, including the investigation of the Mean Squared approach and introduction to Multiple Signal Classification (MUSIC)-based methods.  
 - **Performance Comparison:** Comparing the performance and accuracy of different localization methods.
 
 ### 9️⃣ Brain Connectivity  
 - **Types of Connectivity:** Structural, functional, and effective connectivity.  
 - **Challenges in EEG Connectivity Analysis:** Addressing issues like volume conduction and active common reference effects.  
 - **Functional Connectivity Estimators:** Pearson correlation, mutual information, coherence, Phase-Locking Value (PLV), Phase Lag Index (PLI), etc.  
-- **Brain Connectivity Graphs:** Constructing connectivity graphs and extracting graph-theoretical features such as nodal degree, clustering coefficient, and global efficiency.
+- **Brain Connectivity Graphs:** Constructing connectivity graphs and extracting graph-theoretical features such as nodal degree, clustering coefficient, global efficiency, etc.
 
 ---
 
+This syllabus reflects the graduate-level depth and rigor of the EEG Signal Processing course. The repository includes code and projects corresponding to each section of the syllabus.
