@@ -10,6 +10,12 @@
 ## 📘 Course Overview  
 This course provides an in-depth understanding of **EEG (Electroencephalography) signal processing**, emphasizing both the theoretical foundations and practical applications. Students will learn how to handle EEG data, preprocess signals, apply advanced source separation and classification techniques, and analyze brain connectivity. The course also covers the development of Brain-Computer Interfaces (BCI) and brain source localization methods. Practical projects and case studies are integrated into the curriculum to ensure hands-on experience in the field.
 
+**Textbooks:**
+- Sanei, Saeid. “Adaptive processing of brain signals.” John Wiley & Sons, 2013.
+- Cohen, Mike X. Analyzing neural time series data: theory and practice. MIT press, 2014.
+- Clerc, Maureen, Laurent Bougrain, and Fabien Lotte, eds. Brain-Computer Interfaces 1: Methods and Perspectives. John Wiley & Sons, 2016.
+- Clerc, Maureen, Laurent Bougrain, and Fabien Lotte, eds. Brain-Computer Interfaces 2: Technology and Applications. John Wiley & Sons, 2016.
+
 ---
 
 ## 📝 Syllabus
